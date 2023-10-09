@@ -1,0 +1,3 @@
+[submodule "mydata"]
+	path = mydata
+	url = https://github.com/simorgh1/llamaIndexData.git
