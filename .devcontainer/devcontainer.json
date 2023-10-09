@@ -1,0 +1,14 @@
+{
+	"customizations": {
+	  "codespaces": {
+		"repositories": {
+		  "simorgh1/llamaindexData": {
+			"permissions": {
+			  "issues": "write"
+			}
+		  }
+		}
+	  }
+	}
+  }
+  
