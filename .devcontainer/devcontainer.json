@@ -2,10 +2,8 @@
 	"customizations": {
 	  "codespaces": {
 		"repositories": {
-		  "simorgh1/llamaindexData": {
-			"permissions": {
-			  "issues": "write"
-			}
+		  "simorgh1/llamaindexdata": {
+			"permissions": "write-all"
 		  }
 		}
 	  }
