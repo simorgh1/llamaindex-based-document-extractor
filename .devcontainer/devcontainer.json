@@ -1,12 +1,12 @@
 {
-	"customizations": {
-	  "codespaces": {
-		"repositories": {
-		  "simorgh1/llamaindexdata": {
-			"permissions": "write-all"
-		  }
-		}
-	  }
-	}
-  }
-  
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "simorgh1/llamaindexdata": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
