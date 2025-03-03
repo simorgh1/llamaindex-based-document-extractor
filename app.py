@@ -1,12 +1,12 @@
 import os, streamlit as st
 
-from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader, LLMPredictor, PromptHelper, ServiceContext
+from llama_index.core import GPTSimpleVectorIndex, SimpleDirectoryReader, LLMPredictor, PromptHelper, ServiceContext
 from langchain.llms.openai import OpenAI
 
 # Uncomment to specify your OpenAI API key here, or add corresponding environment variable (recommended)
 # os.environ['OPENAI_API_KEY']= "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"
 
-# Provide openai key from the frontend if you are not using the above line of code to seet the key
+# Provide openai key from the frontend if you are not using the above line of code to set the key
 openai_api_key = st.sidebar.text_input(
     label="#### Your OpenAI API key 👇",
     placeholder="Paste your openAI API key, sk-",
