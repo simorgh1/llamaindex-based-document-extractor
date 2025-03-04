@@ -1,11 +1,6 @@
 streamlit==1.42.2
 llama-index==0.12.22
 llama-index-llms-gemini
-sentence-transformers
 google-generativeai
 llama-index-embeddings-langchain
-langchain
-pypdf
-transformers
-torch
-
+langchain-huggingface
